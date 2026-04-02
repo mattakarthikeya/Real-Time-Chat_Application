@@ -1,24 +1,21 @@
-📌 Project Title
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
 
-Advanced MERN Stack Real-Time Chat Application
+# Go to project folder
+cd your-repo-name
 
-📝 Description
+# Install backend dependencies
+cd server
+npm install
 
-This project is a full-stack real-time chat application developed using the MERN stack (MongoDB, Express.js, React, Node.js). It enables users to communicate instantly with low latency using real-time technologies. The application demonstrates advanced MERN concepts including API integration, state management, and scalable backend architecture.
+# Install frontend dependencies
+cd ../client
+npm install
 
-🚀 Features
-💬 Real-time messaging using Socket.IO
-👥 Multi-user chat support
-🔐 User authentication & authorization (if implemented)
-🟢 Online/offline user status
-📱 Responsive UI built with React
-⚡ Fast and scalable backend with Node.js & Express
-🗄️ MongoDB database integration
-🛠️ Tech Stack
-Languages Used to make this Real-Time Chat Application:
-Node.js
-Express.js
-Database
-MongoDB
-Real-Time Communication
-Socket.IO
+# Run backend
+cd ../server
+npm start
+
+# Run frontend
+cd ../client
+npm start
