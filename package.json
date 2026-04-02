@@ -1,0 +1,14 @@
+{
+  "name": "real-time-chat-app",
+  "version": "1.0.0",
+  "description": "A real-time chat application with MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start"
+  },
+  "keywords": ["chat", "real-time", "mern", "socket.io"],
+  "author": "",
+  "license": "MIT"
+}
